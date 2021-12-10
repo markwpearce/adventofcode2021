@@ -22,4 +22,5 @@ basinSizes.sort(reverse=True)
 
 topthree = basinSizes[:3]
 
-print(topthree, functools.reduce(operator.mul, topthree))
+print(topthree)
+print(functools.reduce(operator.mul, topthree))
